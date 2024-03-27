@@ -1,6 +1,9 @@
 {
   "name": "angular-app-ssr",
   "version": "0.0.0",
+  "engines": {
+    "node": "20"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -40,5 +43,6 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.3.2"
-  }
+  },
+  "packageManager": "yarn@4.1.1"
 }
